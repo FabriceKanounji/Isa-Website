@@ -1,0 +1,531 @@
+/************************/
+/*    BELOW 1280PX 
+  problems:
+  - Phone img in Contact Section
+/************************/
+
+@media (max-width: 80em) {
+  .contact-collage-3 {
+    width: 13%;
+    position: absolute;
+    top: 43%;
+    right: 21%;
+    transition: all 2.2s;
+    filter: drop-shadow(0 1rem 2rem rgba(0, 0, 0, 0.2));
+    z-index: 2;
+  }
+}
+
+/************************/
+/* BELOW 1024PX 
+  problems:
+  - Text in Over-Mij Section
+  - Font-size overall
+  - Collage editing
+
+/************************/
+@media (max-width: 64em) {
+  /* 1 REM = 9 PX */
+  html {
+    font-size: 56.25%;
+  }
+
+  .collage-12 {
+    width: 13%;
+    position: absolute;
+    top: 65%;
+    right: 3.25%;
+    transition: all 1.5s;
+    transform: rotate(33deg);
+    /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 1); */
+    filter: drop-shadow(0 0.5rem 1rem rgba(0, 0, 0, 0.3));
+    z-index: 3;
+  }
+
+  .author-content {
+    display: flex;
+    align-items: center;
+    background-color: #fff5f5;
+    padding: 1rem 3rem 1rem 3rem;
+  }
+}
+
+/************************/
+/* BELOW 880PX 
+  problems:
+  - Font-size overall
+  - Hero Section Heading-Box centering
+
+/************************/
+@media (max-width: 55em) {
+  /* 1 REM = 8 PX */
+  html {
+    font-size: 50%;
+  }
+
+  .heading-box {
+    margin: 0 auto;
+    max-width: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+  }
+}
+
+/************************/
+/* BELOW 752PX 
+  problems:
+  - Author-section
+  - Phone img at contact
+  - Publication Grid
+  - Mobile Nav
+/************************/
+
+@media (max-width: 47em) {
+  /* AUTHOR-SECTION */
+  .heading-author-box {
+    display: none;
+  }
+
+  .section-author {
+    background-color: #ffe3e3;
+    padding: 6rem 3.2rem 17rem 3.2rem;
+  }
+
+  .container-author {
+    display: none;
+  }
+
+  .section-author-Q {
+    display: block;
+  }
+
+  /* PHONE IMG AT CONTACT */
+  .contact-collage-3 {
+    width: 18%;
+    position: absolute;
+    top: 43%;
+    right: 17%;
+    transition: all 2.2s;
+    filter: drop-shadow(0 1rem 2rem rgba(0, 0, 0, 0.2));
+    z-index: 2;
+  }
+
+  /* PUBLICATIONS GRID */
+  .heading-pub {
+    margin-bottom: 7rem;
+  }
+
+  .grid-publications {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20rem;
+    column-gap: 12rem;
+  }
+
+  .pub-item-container {
+    justify-self: center !important;
+  }
+
+  /* MOBILE NAV */
+
+  .author-logo {
+    display: none;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .header {
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .header-Q {
+    display: block;
+  }
+
+  .section-hero {
+    margin-top: 5rem;
+  }
+}
+
+/************************/
+/* BELOW 576PX 
+  problems:
+  - Collage Size
+  - Phone img at Contact
+  - Contact grid reform
+/************************/
+
+@media (max-width: 36em) {
+  .collage-1 {
+    width: 18%;
+    top: 0%;
+    left: 4%;
+  }
+
+  .collage-2 {
+    width: 19%;
+    top: 23%;
+    left: 4%;
+    transform: rotate(30deg);
+  }
+
+  .collage-3 {
+    width: 24%;
+    top: 52%;
+    left: 3%;
+  }
+
+  .collage-4 {
+    width: 16%;
+    top: 78%;
+    left: 21%;
+  }
+
+  .collage-5 {
+    width: 15%;
+    top: 56%;
+    left: 57.5%;
+  }
+
+  .collage-6 {
+    width: 20%;
+    top: 72%;
+    left: 67%;
+  }
+
+  .collage-7 {
+    width: 25%;
+    top: 56%;
+    left: 33%;
+  }
+
+  .collage-9 {
+    width: 18%;
+    top: 35%;
+    left: 70%;
+  }
+
+  .collage-10 {
+    width: 24%;
+    top: 2%;
+    left: 26%;
+  }
+
+  .collage-11 {
+    width: 18%;
+    top: 5%;
+    right: 2%;
+  }
+
+  .collage-12 {
+    width: 17%;
+    top: 60%;
+    right: 3.25%;
+  }
+
+  .collage-13 {
+    width: 19%;
+    top: 1%;
+    left: 56%;
+  }
+
+  /* Margin between Hero and Author */
+
+  .section-author {
+    background-color: #ffe3e3;
+    padding: 0 3.2rem 17rem 3.2rem;
+  }
+
+  /* Contact Grid reform */
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2.4rem;
+  }
+
+  .title-c {
+    margin-top: 2rem;
+    grid-row: 3/4;
+  }
+
+  .contact-text {
+    padding: 0 6rem;
+  }
+
+  .socials-box {
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    margin-top: 3rem;
+    margin-bottom: 5.4rem;
+    margin-left: 10rem;
+  }
+
+  /* Phone Collage at Contact */
+
+  .contact-collage-3 {
+    width: 24%;
+    top: 63%;
+    right: 18%;
+  }
+}
+
+/************************/
+/* BELOW 512PX 
+  problems:
+  - Featured Section Toggle
+  - Margin Author-section
+  - Contact 
+/************************/
+
+@media (max-width: 32em) {
+  .featured-normal {
+    display: none;
+  }
+
+  .featured-Q {
+    display: block;
+  }
+
+  /* Contact Aanpassen */
+
+  .socials-box {
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    margin-top: 3rem;
+    margin-bottom: 5.4rem;
+    margin-left: 8rem;
+  }
+
+  /* Phone Collage at Contact */
+
+  .contact-collage-3 {
+    width: 24%;
+    top: 67%;
+    right: 18%;
+  }
+}
+
+/************************/
+/* BELOW 448PX 
+  problems:
+  - Featured Section Toggle
+/************************/
+
+@media (max-width: 28em) {
+  .author-name-Q {
+    font-size: 1.4rem;
+  }
+
+  .main-nav-link-Q:link,
+  .main-nav-link-Q:visited {
+    font-size: 1.9rem;
+  }
+
+  .container-author-Q {
+    display: flex;
+    flex-direction: column;
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    height: fit-content;
+    border-radius: 11px;
+
+    background-color: #fff5f5;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.2);
+  }
+
+  .author-img-Q {
+    align-self: center;
+    width: 24rem;
+    margin-top: 4rem;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+    border-radius: 11px;
+  }
+
+  /* Contact Aanpassen */
+
+  .contact-text {
+    padding: 0 3.6rem;
+  }
+
+  .socials-box {
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    margin-top: 3rem;
+    margin-bottom: 4.5rem;
+    margin-left: 5rem;
+  }
+
+  /* Phone Collage at Contact */
+
+  .contact-collage-3 {
+    width: 24%;
+    top: 71%;
+    right: 16%;
+  }
+}
+
+/************************/
+/* BELOW 416PX 
+  problems:
+  = Gemaakt voor Samsumg
+  Galaxy A51 (412 x 915)
+
+  - Collage Reposition
+  - Contact 
+/************************/
+
+@media (max-width: 26em) {
+  .heading-hero {
+    font-size: 3.6rem;
+
+    color: #666;
+  }
+
+  .collage-1 {
+    width: 30%;
+    top: 3%;
+    left: 4%;
+  }
+
+  .collage-2 {
+    width: 29%;
+    top: 34%;
+    left: 4%;
+    transform: rotate(-30deg);
+  }
+
+  .collage-3 {
+    width: 36%;
+    top: 70%;
+    left: 36%;
+  }
+
+  .collage-4 {
+    width: 25%;
+    top: 57%;
+    left: 28%;
+  }
+
+  .collage-5 {
+    display: none;
+    width: 15%;
+    top: 56%;
+    left: 57.5%;
+  }
+
+  .collage-6 {
+    width: 30%;
+    top: 80%;
+    left: 67%;
+  }
+
+  .collage-7 {
+    width: 35%;
+    top: 65%;
+    left: 0%;
+  }
+
+  .collage-9 {
+    width: 37%;
+    top: 46%;
+    left: 57%;
+    transform: rotate(70deg);
+  }
+
+  .collage-10 {
+    width: 40%;
+    top: 15%;
+    left: 19%;
+  }
+
+  .collage-11 {
+    width: 26%;
+    top: 17%;
+    right: 3%;
+  }
+
+  .collage-12 {
+    width: 29%;
+    top: 66%;
+    right: 3.25%;
+  }
+
+  .collage-13 {
+    width: 30%;
+    top: 1%;
+    left: 56%;
+  }
+
+  /* Contact Aanpassen */
+
+  .contact-text {
+    padding: 0 3.6rem;
+  }
+
+  .socials-box {
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    margin-top: 3rem;
+    margin-bottom: 4.5rem;
+    margin-left: 3.5rem;
+  }
+
+  /* Phone Collage at Contact */
+
+  .contact-collage-3 {
+    width: 26%;
+    top: 71%;
+    right: 14%;
+  }
+}
+
+/* Fixing Safari Flexbox Gap */
+.no-flexbox-gap .main-nav-list li:not(:last-child) {
+  margin-right: 3.2rem;
+}
+
+.no-flexbox-gap .main-nav-list-Q li:not(:last-child) {
+  margin-right: 3.2rem;
+}
+
+.no-flexbox-gap .heading-box:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.no-flexbox-gap .author-content-items:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.no-flexbox-gap .pub-item-genre-box:not(:last-child) {
+  margin-bottom: 1.7rem;
+}
+
+.no-flexbox-gap .socials:not(:last-child) {
+  margin-bottom: 1.2rem;
+}
+
+.no-flexbox-gap .email-box:not(:last-child) {
+  margin-right: 1.2rem;
+}
+
+.no-flexbox-gap .instagram-box:not(:last-child) {
+  margin-right: 1.2rem;
+}
