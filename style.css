@@ -734,6 +734,8 @@ body {
 
 /* VOORBEELD RONDJES OM ACHTERGRONDEN TE VERGELIJKEN */
 
+/* 44 vinden Isa en ik mooi voor een andere (zoom 80 of 100%) */
+
 /* 
 .inner-circle-80 {
   opacity: 35%;
@@ -777,6 +779,15 @@ body {
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+.inner-circle-16 {
+  opacity: 35%;
+  background-image: url(/imgs/innerbg42-oxi.png);
+  background-size: cover;
+  background-size: 90%;
+  /* background-position: top; */
+  z-index: -1;
+}
 
 .inner-circle-15 {
   opacity: 40%;
