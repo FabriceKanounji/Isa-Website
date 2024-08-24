@@ -6,13 +6,7 @@
 
 @media (max-width: 80em) {
   .contact-collage-3 {
-    width: 13%;
-    position: absolute;
-    top: 43%;
-    right: 21%;
-    transition: all 2.2s;
-    filter: drop-shadow(0 1rem 2rem rgba(0, 0, 0, 0.2));
-    z-index: 2;
+    display: none;
   }
 }
 
@@ -155,6 +149,24 @@
   .section-hero {
     margin-top: 5rem;
   }
+
+  /* Testimonial slider */
+
+  .section-testimonials {
+    padding: 0rem 2.2rem;
+  }
+
+  .testimonial__text {
+    font-size: 1.4rem;
+  }
+
+  .testimonial__name {
+    font-size: 1.7rem;
+  }
+
+  .testimonial__location {
+    font-size: 1.5rem;
+  }
 }
 
 /************************/
@@ -263,14 +275,14 @@
     padding: 0 6rem;
   }
 
-  .socials-box {
+  /* .socials-box {
     display: flex;
     justify-content: flex-start;
-    /* align-items: center; */
+    align-items: center;
     margin-top: 3rem;
     margin-bottom: 5.4rem;
     margin-left: 10rem;
-  }
+  } */
 
   /* Phone Collage at Contact */
 
@@ -290,6 +302,10 @@
 /************************/
 
 @media (max-width: 32em) {
+  .main-nav-list-Q li:first-child {
+    display: none;
+  }
+
   .featured-normal {
     display: none;
   }
@@ -300,14 +316,14 @@
 
   /* Contact Aanpassen */
 
-  .socials-box {
+  /* .socials-box {
     display: flex;
     justify-content: flex-start;
-    /* align-items: center; */
+    align-items: center;
     margin-top: 3rem;
     margin-bottom: 5.4rem;
     margin-left: 8rem;
-  }
+  } */
 
   /* Phone Collage at Contact */
 
@@ -315,6 +331,16 @@
     width: 24%;
     top: 67%;
     right: 18%;
+  }
+
+  /* Section redactie container padding zijkant  */
+
+  .section-redactie .section-container {
+    padding: 0 0 1.6rem 0;
+  }
+
+  .contact-grid-2 .contact-text-footer {
+    padding: 0 5rem 0 13rem;
   }
 }
 
@@ -363,14 +389,14 @@
     padding: 0 3.6rem;
   }
 
-  .socials-box {
+  /* .socials-box {
     display: flex;
     justify-content: flex-start;
-    /* align-items: center; */
+    align-items: center;
     margin-top: 3rem;
     margin-bottom: 4.5rem;
     margin-left: 5rem;
-  }
+  } */
 
   /* Phone Collage at Contact */
 
@@ -479,14 +505,14 @@
     padding: 0 3.6rem;
   }
 
-  .socials-box {
+  /* .socials-box {
     display: flex;
     justify-content: flex-start;
-    /* align-items: center; */
+    align-items: center;
     margin-top: 3rem;
     margin-bottom: 4.5rem;
     margin-left: 3.5rem;
-  }
+  } */
 
   /* Phone Collage at Contact */
 
@@ -494,6 +520,28 @@
     width: 26%;
     top: 71%;
     right: 14%;
+  }
+
+  /* Testimonial slider */
+
+  .section-testimonials {
+    padding: 0rem 1.2rem;
+  }
+
+  .testimonial__text {
+    font-size: 1.15rem;
+  }
+
+  .testimonial__name {
+    font-size: 1.5rem;
+  }
+
+  .testimonial__location {
+    font-size: 1.2rem;
+  }
+
+  .dots {
+    display: none;
   }
 }
 
