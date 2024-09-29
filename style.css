@@ -696,6 +696,14 @@ body {
   filter: drop-shadow(0 1rem 2rem rgba(0, 0, 0, 0.1));
 }
 
+.pub-item-text-archipel {
+  line-height: 2rem;
+}
+
+.pub-item-text-melopee {
+  line-height: 2.2rem;
+}
+
 .outer-circle,
 .inner-circle {
   display: block;
@@ -784,6 +792,24 @@ body {
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+.inner-circle-18 {
+  opacity: 27.5%;
+  background-image: url(/imgs/innerbg8.jfif);
+  /* background-size: cover; */
+  background-size: 150%;
+  /* background-position: top; */
+  z-index: -1;
+}
+
+.inner-circle-17 {
+  opacity: 60%;
+  background-image: url(/imgs/innerbg33.avif);
+  /* background-size: cover; */
+  background-size: 150%;
+  /* background-position: top; */
+  z-index: -1;
+}
 
 .inner-circle-16 {
   opacity: 35%;
@@ -1076,6 +1102,14 @@ body {
 
 .text-debug-5 {
   line-height: 1.4 !important;
+}
+
+.text-debug-kleiner {
+  font-size: 1.4rem;
+}
+
+.text-debug-groter {
+  font-size: 1.6rem;
 }
 
 .gap-debug {
@@ -1403,6 +1437,11 @@ body {
   margin-bottom: 3.5rem;
   color: #666;
   line-height: 2.6rem;
+}
+
+.groter {
+  font-size: 2rem !important;
+  line-height: 3.4rem;
 }
 
 .testimonial__author {
